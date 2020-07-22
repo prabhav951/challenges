@@ -2,6 +2,14 @@
 
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
 
+![Design preview for the Article preview component coding challenge](./screenshots/desktop-design.png)
+
+![Design preview for the Article preview component coding challenge](./screenshots/desktop-active-state.png)
+
+![Design preview for the Article preview component coding challenge](./screenshots/mobile-design.png)
+
+![Design preview for the Article preview component coding challenge](./screenshots/mobile-active-state.png)
+
 ## Welcome! 👋
 
 **To do this challenge, you need a basic understanding of HTML, CSS and a tiny bit of JavaScript.**
