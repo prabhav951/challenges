@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 2 | Insure landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="images/logo.svg">
+<!-- MOBILE --><img onclick="mobileButton()" class="hamburger mobile" id="changeImage" src="images/icon-hamburger.svg">
+
+      <div class="menu desktop">
+        <a>How We Work</a>
+        <a>Blog</a>
+        <a>Account</a>
+        <a class="viewplans">View Plans</a>
+      </div>
+
+    </nav>
+<!-- MOBILE --> <div id="menustatus" class="menu mobile">
+                  <a>How We Work</a>
+                  <a>Blog</a>
+                  <a>Account</a>
+                  <a class="viewplans">View Plans</a>
+                </div>
+
+<!-- MOBILE --><img class="image-intro mobile" src="images/image-intro-mobile.jpg">
+     <div class="humanizing">
+      <img class="rightpattern desktop" src="images/bg-pattern-intro-right-desktop.svg">
+      <img class="image-intro desktop" src="images/image-intro-desktop.jpg">
+      <div class="humanizing-content">
+        <span class="desktop" style="color:white;">_________________</span>
+        <p class="humanizing-heading">Humanizing your insurance.</p>
+        <p class="humanizing-paragraph">Get your life
+        insurance coverage easier and faster. We blend our expertise and technology
+        to help you find the plan that’s right for you. Ensure you and your loved
+        ones are protected.</p>
+        <a class="viewplans2">View Plans</a>
+      </div>
+
+      <img class="leftpattern desktop" src="images/bg-pattern-intro-left-desktop.svg">
+      <img class="rightpattern mobile" src="images/bg-pattern-intro-right-mobile.svg">
+
+    </div>
+
+    <div class="different">
+      _________________<br><p class="different-heading">We’re different</p>
+    </div>
+
+    <div class="different-tabs-section">
+      <div class="different-tab">
+        <img src="images/icon-snappy-process.svg">
+        <p class="heading">Snappy Process</p>
+        <p class="text">Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+      </div>
+      <div class="different-tab">
+        <img src="images/icon-affordable-prices.svg">
+        <p class="heading">Affordable Prices</p>
+        <p class="text">We don’t want you worrying about
+        high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
+      </div>
+      <div class="different-tab">
+        <img src="images/icon-people-first.svg">
+        <p class="heading">People First</p>
+        <p class="text">Our plans aren’t full of conditions and
+        clauses to prevent payouts. We make sure you’re covered when you need it.</p>
+      </div>
+    </div>
+
+
+    <div class="find-out">
+      <p class="find-out-heading">Find out more about how we work</p>
+      <a>How we work</a>
+    </div>
+
+    <footer>
+      <img class="logo" src="images/logo.svg">
+      <div class="social-media">
+      <a><i class="fa  fa-facebook-official" aria-hidden="true"></i></a>&emsp;
+      <a><i class="fa  fa-twitter" aria-hidden="true"></i></a>&emsp;
+      <a><i class="fa  fa-pinterest" aria-hidden="true"></i></a>&emsp;
+      <a><i class="fa  fa-instagram" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="like-hr"></div>
+
+    <div class="footer-tab">
+      <p class="footer-heading">Our Company</p>
+      <a>How we work</a><br><a>Why Insure?</a><br><a>View plans</a><br><a>Reviews</a></p>
+    </div>
+    <div class="footer-tab">
+      <p class="footer-heading">Help me</p>
+      <a>FAQ</a><br><a>Terms of use</a><br><a>Privacy policy</a><br><a>Cookies</a></p>
+    </div>
+    <div class="footer-tab">
+      <p class="footer-heading">Contact</p>
+      <a>Sales</a><br><a>Support</a><br><a>Live chat</a></p>
+    </div>
+    <div class="footer-tab">
+      <p class="footer-heading">Others</p>
+      <a>Careers</a><br><a>Press</a><br><a>Licenses</a></p>
+    </div>
+
+    </footer>
+
+  </body>
+<script>
+  function mobileButton()
+  {
+    if(document.getElementById("changeImage").getAttribute("src") == "images/icon-hamburger.svg")
+      {
+        document.getElementById("changeImage").src = "images/icon-close.svg";
+        document.getElementById("menustatus").style.display = "block";
+      }
+    else
+      {
+        document.getElementById("changeImage").src = "images/icon-hamburger.svg";
+        document.getElementById("menustatus").style.display = "none";
+      }
+
+      
+  }
+
+
+</script>
+</html>
