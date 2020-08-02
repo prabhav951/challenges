@@ -2,6 +2,11 @@
 
 ![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)
 
+![Design preview for the Article preview component coding challenge](./screenshots/desktop-design.png)
+
+![Design preview for the Article preview component coding challenge](./screenshots/mobile-design.png)
+
+![Design preview for the Article preview component coding challenge](./screenshots/mobile-nav-design.png)
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 
